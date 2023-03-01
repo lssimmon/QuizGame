@@ -1,6 +1,6 @@
 # Author: Lauryn Simmons
-# Date: 
-# Description:
+# Date: 2/28/23
+# Description: A simply Python program that test user based on a set of questions. Able to add and delete quiz questions
 # Inspired by: 
 
 # imports the arrays of questions and answers
