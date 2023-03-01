@@ -8,7 +8,7 @@ from qna import *
 import time
 userInput = "temp"
 print("Welcome to my quiz game!") 
-time.sleep(2)
+time.sleep(1)
 while(userInput != "exit"):
     
     # prompts user
@@ -34,12 +34,12 @@ while(userInput != "exit"):
             temp = temp + 1
 
         print("Congrats! You got " + str(score) + " out of " + str(count) + " questions correct!")
-        time.sleep(3)
+        time.sleep(2)
         
     elif userInput == "add":
 
         print("Input question to be added: ")
-        userInput = input().lower()
+        userInput = input()
         questions = questions + [str(userInput)]
 
         print("Input answer to question: ")
